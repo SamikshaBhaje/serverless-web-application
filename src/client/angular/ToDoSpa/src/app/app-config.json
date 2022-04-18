@@ -15,7 +15,7 @@
     },
     "resources": {
       "todoListApi": {
-        "resourceUri": "https://apim-cloudnativeguild-dev.azure-api.net/serverlessApi/todos",
+        "resourceUri": "https://apim-cloudnativeguild-dev.azure-api.net/2do/todos",
         "resourceScope": "api://fn-cloudnativeguild-dev/user_impersonation"
       }
     }     
