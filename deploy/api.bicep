@@ -1,11 +1,11 @@
 @description('APIM name')
-param apimName string = 'apim-prefix-env'
+param apimName string = 'apim-${appNameSuffix}-${environmentType}'
 
 @description('Open API Definition URL')
-param openApiUrl string = 'https://fn-prefix-dev.azurewebsites.net/api/swagger.json'
+param openApiUrl string = 'https://fn-${appNameSuffix}-${environmentType}.azurewebsites.net/api/swagger.json'
 
 @description('Static Website URL')
-param originUrl string = 'https://prefix-env.azureedge.net'
+param originUrl string = 'https://${appNameSuffix}-${environmentType}.azureedge.net'
 
 @description('API friendly name')
 param apimApiName string = '2do'
