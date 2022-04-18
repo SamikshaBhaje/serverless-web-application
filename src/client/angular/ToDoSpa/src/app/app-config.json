@@ -1,10 +1,10 @@
 {
   "auth": {
-    "clientId": "__clientAppId__",
-    "authority": "__tenantDomainName__",
+    "clientId": "5116fbd7-4443-491d-8bd1-e304328b9fa7",
+    "authority": "https://login.microsoftonline.com/hpe.onmicrosoft.com",
     "validateAuthority": true,
-    "redirectUri": "__clientAppURL__",
-    "postLogoutRedirectUri": "__clientAppURL__",
+    "redirectUri": "https://cloudnativeguild-dev.azureedge.net",
+    "postLogoutRedirectUri": "https://cloudnativeguild-dev.azureedge.net",
     "navigateToLoginRequestUrl": true
   },
     "cache": {
@@ -15,8 +15,8 @@
     },
     "resources": {
       "todoListApi": {
-        "resourceUri": "__apimURL__/todos",
-        "resourceScope": "__backendAPIScope__"
+        "resourceUri": "https://apim-cloudnativeguild-dev.azure-api.net/serverlessApi/todos",
+        "resourceScope": "api://fn-cloudnativeguild-dev/user_impersonation"
       }
     }     
 }
